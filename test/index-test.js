@@ -1,4 +1,4 @@
-('Selectors', () => {
+describe('Selectors', () => {
   it('getIt() binds a click event to the paragraph', function() {
     window.alert = expect.createSpy()
 
